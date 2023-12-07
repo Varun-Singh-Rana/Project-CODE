@@ -35,7 +35,7 @@ int health_data(){
         scanf(" %15[^\n]", &city);
         printf("\nEnter your BP: ");
         scanf("%d", &bp);
-        printf("\nEnter your Pluse rate: ");
+        printf("\nEnter your Pulse rate: ");
         scanf("%d", &pr);
         printf("\n\n-----------------------------------------\n%s | %d | %c | %s | %d | %d\n-----------------------------------------\n",name,age,gender,city,bp,pr);
         
@@ -60,7 +60,7 @@ int health_data(){
         int bp,pr,ecg;
         printf("\nEnter your BP:");
         scanf("%d", &bp);
-        printf("\nEnter your Pluse rate:");
+        printf("\nEnter your Pulse rate:");
         scanf("%d", &pr);
         printf("\nEnter your ECG (in MS):");
         scanf("%d", &ecg);
